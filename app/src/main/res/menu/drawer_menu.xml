@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Daily_Calories"
+            android:title="Daily Calories"
+            android:checked="true"/>
+        <item
+            android:id="@+id/Weekly_Calories"
+            android:title="Weekly Calories" />
+        <item
+            android:id="@+id/User_Profile"
+            android:title="User Profile" />
+    </group>
+</menu>
